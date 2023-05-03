@@ -7,6 +7,10 @@ Username: <input type="text" name="Variabel1"><br> <br>
 Password: <input type="text" name="Variabel2">
 <input type="submit">
 </form>
+<br><br> 
+<form action = "Registersite.php" method = "POST">
+Register Here-> <input type = "submit">
+</form>
 </body>
 </html>
 
