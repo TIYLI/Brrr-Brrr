@@ -20,5 +20,5 @@ $userList = $db->query($allInputQuery); #en ny array som innehåller all informa
 $db->exec("INSERT INTO USERS(USERNAME, PASSWORD) VALUES('".$username."','".$password."')");
     setcookie("user", $username, time()+(86400*30),'/');
 
-    header("Location: Headsite.php"); 
+    header("Location: Startsida.php"); 
 ?>
